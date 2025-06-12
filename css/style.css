@@ -2029,6 +2029,7 @@ button:hover {
 @media (max-width: 480px) {
     .booking-container {
         flex-direction: column;
+        justify-items: flex-start;
     }
 
     .booking-image {
@@ -2037,26 +2038,26 @@ button:hover {
 
     .booking-form {
         width: 100%;
+
     }
 
     .form-grid {
         display: grid;
         grid-template-columns: 1fr;
+        justify-content: flex-start;
         gap: 20px;
-        width: 100%;
+        width: 95%;
 
     }
 
     .form-grid input,
     .form-grid select {
         padding: 17px;
-        padding-right: 10px;
         border: 1px solid #ccc;
         border-radius: 2px;
         box-sizing: border-box;
-        width: 195%;
+        width: 180%;
 
-        /* مهم مع grid */
     }
 
 
@@ -2075,7 +2076,7 @@ button:hover {
     }
 
     textarea {
-        width: 190%;
+        width: 170%;
         height: 80px;
         padding: 10px;
         border: 1px solid #ccc;
