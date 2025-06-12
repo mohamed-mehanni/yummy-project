@@ -993,8 +993,8 @@ body {
     }
 
     .red-box {
-        width: 75%;
-        height: 425px;
+        width: 70%;
+        height: 435px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1008,14 +1008,15 @@ body {
     .red-box h2 {
         font-size: 40px;
         padding-left:25px ;
+        text-align: center;
        
     }
 
 
     .red-box p {
-        padding-left: 10PX;
-        padding-right: 10PX;
+        width: 90%;
         text-align: center;
+        padding-left: 15px;
         
     }
 
@@ -1023,7 +1024,7 @@ body {
         justify-content: center;
         width: 35%;
         text-align: center;
-        padding: 20px;
+        padding: 18px;
         margin-top: 5px;
         margin-right: 40px;
         
