@@ -935,11 +935,27 @@ body {
         height: 380px;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+        align-items: flex-start;
+        justify-content: flex-end;
+        text-align: left;
 
     }
+
+    .red-box h2 {
+        font-size: 40px;
+        padding-left:20px ;
+        align-items: flex-end;
+    }
+
+    
+
+    .red-box p {
+        width: 100%;
+        margin: 20px 0;
+        line-height: 1.6;
+        
+    }
+
 
     .btn-learn {
         justify-content: center;
@@ -977,11 +993,10 @@ body {
     }
 
     .red-box {
-        width: 70%;
-        height: 410px;
+        width: 75%;
+        height: 425px;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
         justify-content: center;
         text-align: left;
         padding-left: 10px;
@@ -990,13 +1005,28 @@ body {
 
     }
 
+    .red-box h2 {
+        font-size: 40px;
+        padding-left:25px ;
+       
+    }
+
+
+    .red-box p {
+        padding-left: 20PX;
+        padding-right: 10PX;
+        text-align: left;
+        
+    }
+
     .btn-learn {
         justify-content: center;
         width: 35%;
         text-align: center;
         padding: 20px;
-        margin-top: 20px;
+        margin-top: 5px;
         margin-right: 40px;
+        
     }
 
     .choose-box h3 {
