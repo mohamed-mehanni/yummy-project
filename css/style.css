@@ -998,7 +998,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        text-align: left;
+        text-align: center;
         padding-left: 10px;
         margin-right: 22px;
 
@@ -1013,9 +1013,9 @@ body {
 
 
     .red-box p {
-        padding-left: 20PX;
+        padding-left: 10PX;
         padding-right: 10PX;
-        text-align: left;
+        text-align: center;
         
     }
 
